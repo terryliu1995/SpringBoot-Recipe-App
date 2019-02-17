@@ -11,8 +11,6 @@ import java.math.BigDecimal;
 
 import static org.junit.Assert.*;
 
-import static org.junit.Assert.*;
-
 public class IngredientCommandToIngredientTest {
 
     public static final Recipe RECIPE = new Recipe();
@@ -47,7 +45,7 @@ public class IngredientCommandToIngredientTest {
         command.setDescription(DESCRIPTION);
         UnitOfMeasureCommand unitOfMeasureCommand = new UnitOfMeasureCommand();
         unitOfMeasureCommand.setId(UOM_ID);
-        command.setUnitOfMeasure(unitOfMeasureCommand);
+        command.setUom(unitOfMeasureCommand);
 
         //when
         Ingredient ingredient = converter.convert(command);
