@@ -8,6 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
+
 @Slf4j
 @Service
 public class ImageServiceImpl implements ImageService {
