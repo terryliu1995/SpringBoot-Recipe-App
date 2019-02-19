@@ -43,9 +43,6 @@ jobs:
       - store_test_results:
           path: target/surefire-reports
 
-      -run:
-          name: Set token
-          command: export CODECOV_TOKEN="40d7e545-4840-4166-8561-4ef59c4b8252"
       - run:
           name: Send to CodeCov
           command: bash <(curl -s https://codecov.io/bash)
