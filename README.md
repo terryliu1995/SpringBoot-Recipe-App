@@ -22,53 +22,14 @@ Technical stack: Java, Springboot, Thymeleaf, Spring data JPA, Junit, MySQL, Boo
     │   │   │           └── spring5recipeapp
     │   │   │               ├── Spring5RecipeAppApplication.java
     │   │   │               ├── bootstrap
-    │   │   │               │   ├── BootStrapMySQL.java
-    │   │   │               │   └── RecipeBootstrap.java
     │   │   │               ├── commands
-    │   │   │               │   ├── CategoryCommand.java
-    │   │   │               │   ├── IngredientCommand.java
-    │   │   │               │   ├── NotesCommand.java
-    │   │   │               │   ├── RecipeCommand.java
-    │   │   │               │   └── UnitOfMeasureCommand.java
     │   │   │               ├── controllers
-    │   │   │               │   ├── ControllerExceptionHandler.java
-    │   │   │               │   ├── ImageController.java
-    │   │   │               │   ├── IndexController.java
-    │   │   │               │   ├── IngredientController.java
-    │   │   │               │   └── RecipeController.java
     │   │   │               ├── converters
-    │   │   │               │   ├── CategoryCommandToCategory.java
-    │   │   │               │   ├── CategoryToCategoryCommand.java
-    │   │   │               │   ├── IngredientCommandToIngredient.java
-    │   │   │               │   ├── IngredientToIngredientCommand.java
-    │   │   │               │   ├── NotesCommandToNotes.java
-    │   │   │               │   ├── NotesToNotesCommand.java
-    │   │   │               │   ├── RecipeCommandToRecipe.java
-    │   │   │               │   ├── RecipeToRecipeCommand.java
-    │   │   │               │   ├── UnitOfMeasureCommandToUnitOfMeasure.java
-    │   │   │               │   └── UnitOfMeasureToUnitOfMeasureCommand.java
     │   │   │               ├── domain
-    │   │   │               │   ├── Category.java
-    │   │   │               │   ├── Difficulty.java
-    │   │   │               │   ├── Ingredient.java
-    │   │   │               │   ├── Notes.java
-    │   │   │               │   ├── Recipe.java
-    │   │   │               │   └── UnitOfMeasure.java
     │   │   │               ├── exceptions
     │   │   │               │   └── NotFoundException.java
     │   │   │               ├── repositories
-    │   │   │               │   ├── CategoryRepository.java
-    │   │   │               │   ├── RecipeRepository.java
-    │   │   │               │   └── UnitOfMeasureRepository.java
     │   │   │               └── services
-    │   │   │                   ├── ImageService.java
-    │   │   │                   ├── ImageServiceImpl.java
-    │   │   │                   ├── IngredientService.java
-    │   │   │                   ├── IngredientServiceImpl.java
-    │   │   │                   ├── RecipeService.java
-    │   │   │                   ├── RecipeServiceImpl.java
-    │   │   │                   ├── UnitOfMeasureService.java
-    │   │   │                   └── UnitOfMeasureServiceImpl.java
     │   │   ├── resources
     │   │   │   ├── application-default.properties
     │   │   │   ├── application-dev.yml
@@ -83,13 +44,6 @@ Technical stack: Java, Springboot, Thymeleaf, Spring data JPA, Junit, MySQL, Boo
     │   │   │       ├── 404error.html
     │   │   │       ├── index.html
     │   │   │       └── recipe
-    │   │   │           ├── imageuploadform.html
-    │   │   │           ├── ingredient
-    │   │   │           │   ├── ingredientform.html
-    │   │   │           │   ├── list.html
-    │   │   │           │   └── show.html
-    │   │   │           ├── recipeform.html
-    │   │   │           └── show.html
     │   │   └── scripts
     │   │       ├── README.md
     │   │       └── configure-mysql.sql
